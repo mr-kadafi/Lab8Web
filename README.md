@@ -46,15 +46,15 @@
    - **Membuat Tabel**
 
      ```sql
-     CREATE TABLE data_barang (
-         id_barang int(10) auto_increment Primary Key,
-         kategori varchar(30),
-         nama varchar(30),
-         gambar varchar(100),
-         harga_beli decimal(10,0),
-         harga_jual decimal(10,0),
-         stok int(4)
-     );
+     CREATE TABLE data_barang ( 
+      id_barang int(10) auto_increment Primary Key, 
+      kategori varchar(30), 
+      nama varchar(30), 
+      gambar varchar(100), 
+      harga_beli decimal(10,0), 
+      harga_jual decimal(10,0), 
+      stok int(4) 
+     ); 
      ```
 
      ![Create tabel data barang](screenshots/7.1.png)
@@ -84,7 +84,7 @@
 
 9. Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: [http://localhost/lab8_php_database/](http://localhost/lab8_php_database/)
 
-   ![Mengakses direktory](screenshots/8.1.png)
+   ![Mengakses direktory](screenshots/9.1.png)
 
 10. Membuat file koneksi database.
 
